@@ -11,7 +11,7 @@ body {
 }
 
 a {
-    cursor: url("images/cursor-grab.png"), auto;
+    cursor: url("/portfolio/images/cursor-grab.png"), auto;
     text-decoration: none;
     color:#ffb3c6
 }
