@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Delius&family=Delius+Unicase:wght@400;700&display=swap');
 
 body {
-    cursor: url("portfolio/images/cursor.png"), auto;
+    cursor: url("images/cursor.png"), auto;
     padding: 0;
     margin: 0;
     height: 100%;
@@ -11,7 +11,7 @@ body {
 }
 
 a {
-    cursor: url("portfolio/images/cursor-grab.png"), auto;
+    cursor: url("images/cursor-grab.png"), grab;
     text-decoration: none;
     color:#ffb3c6
 }
