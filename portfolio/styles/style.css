@@ -13,6 +13,7 @@ body {
 a {
     cursor: url("/portfolio/images/cursor-grab.png"), url("/portfolio/images/cursor-grab.png"), auto;
     text-decoration: none;
+    color:#ffb3c6
 }
 
 a:visited { text-decoration: none; color:#ffb3c6; }
@@ -255,6 +256,9 @@ footer {
 
 #fiber-arts-card .card-button a:visited { text-decoration: none; color:#6d6875; }
 
+#fiber-arts-card .card-button a { text-decoration: none; color:#6d6875; }
+
+
 #fiber-arts-card .card-button:hover {
     transform: scale(1.1);
 }
@@ -311,6 +315,7 @@ footer {
 
 #sewing-card .card-button a:visited { text-decoration: none; color:#6d6875; }
 
+#sewing-card .card-button a { text-decoration: none; color:#6d6875; }
 
 #sewing-card .card-button:hover {
     transform: scale(1.1);
