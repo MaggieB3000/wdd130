@@ -223,6 +223,10 @@ footer {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+#fiber-arts-card:hover {
+    transform: scale(1.05);
+}
+
 #fiber-arts-card img {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -280,6 +284,10 @@ footer {
     border-radius: 25px;
     background-color: #6d6875;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#sewing-card:hover {
+    transform: scale(1.05);
 }
 
 #sewing-card img {
