@@ -184,6 +184,7 @@ footer {
     border-radius: 25px;
     margin-right: 10%;
     margin-top: 50px;
+    object-fit: contain;
 }
 
 #my-work-head {
