@@ -341,7 +341,7 @@ footer {
 
 #sewing-experience-img {
     grid-column: 1/2;
-    grid-template-rows: 1/2;
+    grid-row: 1/2;
     border-radius: 25px;
     object-fit: cover;
     height: 500px;
