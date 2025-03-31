@@ -318,6 +318,133 @@ footer {
     transform: scale(1.1);
 }
 
+.sewing-content {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    justify-content: center;
+    margin-left: 14%;
+    margin-right: 14%;
+}
+
+#sewing-experience {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: auto;
+    justify-content: center;
+    justify-items: stretch;
+    gap: 3%;
+}
+
+#sewing-experience-img {
+    grid-column: 1/2;
+    grid-template-rows: 1/2;
+    border-radius: 25px;
+    object-fit: cover;
+    height: 500px;
+}
+
+#sewing-experience-text {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: #6d6875;
+    font-size: 1.5em;
+    align-content: center;
+    background-color: #ffb3c6;
+    border: #ff8fab;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 5%;
+    padding: 10%;
+}
+
+#why-i-sew {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: auto auto;
+    text-align: center;
+}
+
+#why-i-sew-heading {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    margin-top: 10%;
+    background-color: #6d6875;
+    color: #ffe5ec;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 2em;
+}
+
+#why-i-sew-text {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    font-size: 1.5em;
+    text-align: center;
+    color: #6d6875;
+    background-color: #ffb3c6;
+    border: #ff8fab;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 25px;
+    padding: 7%;
+}
+
+#fiber-arts-gallery {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: auto auto;
+    align-items: center;
+    justify-content: center;
+    justify-items: stretch;
+    gap: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#fiber-arts-gallery-heading {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    margin-top: 10%;
+    background-color: #6d6875;
+    color: #ffe5ec;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 2em
+}
+
+.img-one {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    border-radius: 25px;
+}
+
+.img-two {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border-radius: 25px;
+}
+
+.img-three {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    border-radius: 25px;
+    height: 100%;
+}
+
 .contact_me {
     grid-column: 1/2;
     grid-row: 1/2;
