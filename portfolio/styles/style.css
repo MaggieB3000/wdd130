@@ -445,6 +445,94 @@ footer {
     height: 100%;
 }
 
+#fiber-arts-experience {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: auto;
+    justify-content: center;
+    justify-items: stretch;
+    gap: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#fiber-arts-experience-text {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 1.5em;
+    text-align: center;
+    align-self: center;
+    color: #6d6875;
+    background-color: #ffb3c6;
+    border: #ff8fab;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 25px;
+    padding: 7%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    
+}
+
+#fiber-arts-experience-img {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border-radius: 25px;
+    align-self: center;
+}
+
+#yarning-gallery {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: auto auto auto;
+    align-items: center;
+    justify-content: center;
+    justify-items: stretch;
+    gap: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 4%;
+}
+
+#yarning-gallery-heading {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    margin-top: 10%;
+    background-color: #6d6875;
+    color: #ffe5ec;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 2em
+}
+
+.img-four {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    border-radius: 25px;
+    height: 100%;
+}
+
+.img-five {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    border-radius: 25px;
+    height: 100%;
+}
+
+.img-six {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    border-radius: 25px;
+    height: 100%;
+}
+
 .contact_me {
     grid-column: 1/2;
     grid-row: 1/2;
